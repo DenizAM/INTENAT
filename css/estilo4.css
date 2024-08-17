@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400&display=swap'); /*Fuente de google font*/
+
+/*estética*/
+* {
+  box-sizing: border-box; /*Control del tamaño de los contenedores*/
+  margin: 0; /*reseteo de los espacios default*/
+  padding: 0; /*reseteo de los espacios default*/
+  font-family: 'Poppins', sans-serif; /*llamando al tipo de letra*/
+  height: 100%;/*body ocupa 100%*/
+  font-size: calc(.6em + .6vw); /*Ajustar tamaño de letra*/
+}
+
+/*estética de grid containers*/
+.grid-container > * {
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+
+
+
+
+
+/*Estética de secciones del maquetado*/
+.cabecera {
+    grid-area: navbar;
+    background-color:#4a4641;
+  }
+
+.formularioContainer {
+  grid-area: main;
+  background-image: linear-gradient(rgba(23, 22, 39, 0.3), rgba(71, 74, 78, 0.3)),  url("https://verdecora.es/blog/wp-content/uploads/2017/07/mantenimiento-piscina-verano-1.jpg.webp");
+  background-size: cover;
+}
+
+.pie {
+  grid-area: footer;
+  background-color: #4a4641;
+}
+
+
+
+
+
+/*Ajustar pantallas*/
+/*dispositivo pequeño*/
+.grid-container {
+  display: grid;
+  gap: 0px; /*Separación entre cada celda del grid*/
+  grid-template:
+    "navbar"  40px /*Altura de la celda*/
+    "main" 800px
+    "footer"  165px;
+}
+
+/*para un dispositivo mediano*/
+@media (min-width: 550px) {
+    .grid-container {
+      /* medidas de areas de filas y columnas */
+      grid-template:
+      "navbar navbar" 60px /*Altura de la celda*/
+      "main main" 800px
+      "footer footer"  250px;
+    }
+  }
+  
+  /*dispositivos grande*/
+  @media (min-width: 900px) {
+    .grid-container {
+      grid-template:
+      "navbar navbar"  80px /*Altura de la celda*/
+      "main main" 1000px
+      "footer footer"  430px;
+    }
+  }
+
+
+
+
+/*estilo del MENU*/
+  .cabecera > * {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    padding-top: 2%;
+    padding-bottom: auto;
+    padding-right: 2%;
+    padding-left: 2%;
+    list-style: none;
+    font-weight: bolder;
+}
+
+.cabecera > .elementosIzquierda {
+    justify-content:left;
+    height: 80%;
+    cursor:pointer;
+    float: left;
+}
+
+#logoAccesibilidad{
+    filter: invert(1);
+    margin: 0px 10px;
+}
+
+.cabecera > .elementoCentro {
+    justify-content:center;
+    height: 80%;
+    filter: invert(1);
+    cursor: none;
+    float: left;
+}
+
+
+.cabecera > .elementosDerecha {
+    justify-content:end;
+    height: 60%;
+    float: left;
+}
+
+#lupa, #iniciarSesion, #carrito {
+    filter: invert();
+}
+
+
+
+
+
+
+.cabecera  .elementoCentro img:hover{
+    cursor: none;
+}
+
+.cabecera  .elementosIzquierda img:hover{
+    transform: scale(1.11); /*para que aumente y disminuya tamaño logo CURSOR ENCIMA*/
+    cursor: pointer;
+}
+
+.cabecera .elementosDerecha a{
+    padding: 0 20px;    
+}
+
+.cabecera .elementosDerecha a:hover{
+    transform: scale(1.115); /*para que aumente y disminuya tamaño de palabras MENU CURSOR ENCIMA*/
+    transition: all 0.5s;
+}
+
+.cabecera .elementosDerecha a{
+    color: #eceff1; /*Color a texto menu*/
+    text-decoration: none;    
+}
+
+.cabecera .elementosDerecha a:hover{
+    color: #ffbc0e;
+}
+
+
+
+
+
+
+/*Formulario*/
+
+
+.form-register { /*Contenedor de formulario*/
+    height: auto;
+    width: 80%;
+    background: #fafafa;
+    padding-right: 20%;
+    padding-left: 20%;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    color: rgb(0, 0, 0);
+    box-shadow: 7px 13px 37px #000;    
+  }
+  
+  .form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-size: calc(1em + .8vw); /*Ajustar tamaño de letra*/
+  }
+  
+  .controls {
+    width: 100%;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #aeaeae;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: rgb(74, 75, 78);
+  }
+  
+  .form-register p {
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: calc(.6em + .8vw); /*Ajustar tamaño de letra*/
+  }
+  
+  .form-register a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;    
+  }
+  
+  .form-register a:hover {
+    color: rgb(225, 139, 11);
+    font-weight: 1000;
+    text-decoration: underline;
+  }
+
+  .form-register a:hover{
+    transform: scale(2); /*para que aumente y disminuya tamaño de palabras MENU CURSOR ENCIMA*/
+    transition: all 0.5s;
+}
+  
+  .form-register .botons {
+    width: 70%;
+    background: #616161;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    border-radius: 15px;
+  }
+
+  .botons:hover, .menuBoton{
+    transform: scale(1.115);
+    transition: all 0.5s;
+    color: #ffbc0e;
+  }

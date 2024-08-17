@@ -1,0 +1,274 @@
+/*Construcción de boton hamburguesa*/
+
+.bar-btn{
+    color:aliceblue;
+}
+
+.bar-btn:hover{
+    transform: scale(1.115);
+    transition: all 0.5s;
+    color: #ffbc0e;
+}
+
+.menuA:hover{
+    transform: scale(1.115);
+    transition: all 0.5s;
+    color: #ffbc0e;
+  }
+
+.nav-menu {
+    position: fixed;
+    width: 50%;
+    height: 0vh;
+    top: 100px;
+    background: #0a212d;;
+    text-align: center;
+    transition: all .5s;
+}
+
+.nav-menu li{
+    display:none;
+    line-height: 30px;
+    margin: 50px 0;
+    
+}
+
+.nav-menu li a{
+    color:aliceblue;
+    padding: 10px;
+}
+ 
+#check{
+    display: none;
+}
+
+#check:checked ~ .nav-menu {
+    height: 10vh;
+}
+
+#check:checked ~ .nav-menu li{
+    display:contents;
+}
+
+
+
+
+/*Anuncios CSS*/
+
+.anuncios{
+    min-height: 10vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    color: aliceblue;
+    font-size: calc(1em + 1vw); /*Ajustar tamaño de letra*/
+}
+
+.botonAnuncio{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .botonA{
+    text-decoration: none;
+    padding: 20px 70px;
+    position: relative;
+    margin: 20%;
+    align-self: center;
+  
+    background-color:#565e62;
+    color: aliceblue;
+    border-radius: 25px;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .botonA:hover{
+    transform: scale(1.115);
+    transition: all 0.5s;
+    color: #ffbc0e;
+  }
+  
+  #anunciosL{
+    float: center;
+    text-align: center;
+    padding-top: 10%;   
+    padding-bottom: 12%;
+    padding-right: 2%;
+  }
+
+
+/*SECCION MAIN ARRIBA - DESCUBRE*/
+
+#titulosMenu{
+  color: darkred;
+  font-weight: 1000;
+}
+
+.descubreContainer {
+  height: 75vw;
+  max-height: 1000px;
+  min-height: 250px;
+  height: auto;
+
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  float: center;
+  text-align: center;
+  /*flex-wrap: nowrap;
+  overflow-x: auto;*/
+
+  padding-top: 2%;
+  padding-bottom: 6%;
+  
+  padding-right: 15%;
+  padding-left: 15%;
+}
+
+#DESI {
+  width: 50%;
+}
+
+.divDescubre {
+  min-width: 30%;
+  max-height: 70%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  float: center;
+  margin: 1%;
+  text-decoration: none;
+}
+
+#mas {
+  text-align: right;
+  font-weight: 700;
+  text-decoration: none;
+  color: black;
+}
+
+#flechaDerecha{
+  max-width: 1%;
+  height: auto;
+}
+
+
+#DESI:hover{
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+
+
+/*SECCION MAIN ABAJO*/
+
+  /*
+  .slider-oferta ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    
+    animation: slide 20s infinite alternate ease-in-out;
+  }
+  
+  
+  .slider-oferta img {
+    width: 100%;
+  }
+  
+  @keyframes slide {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+    
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+    
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+    
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+  }
+
+  .slider-oferta{
+    height: 75vw;
+    max-height: 1000px;
+    min-height: 250px;
+    height: auto;
+  
+  
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    float: center;
+    text-align: center;
+    /*flex-wrap: nowrap;
+    overflow-x: auto;*/
+  /*
+    padding-top: 2%;
+    padding-bottom: 6%;
+    
+    padding-right: 15%;
+    padding-left: 15%;
+  }*/
+/*
+#menuOferta {
+  height: 100%;
+  border-radius: 15px;
+}
+*/
+
+
+
+/*COMENTARIOS*/
+
+  .comentarios{
+    padding-top: 2.3%;
+  }
+
+  .slider-comentario {
+    height: 75vw;
+    max-height: 1000px;
+    min-height: 250px;
+    height: auto;
+    overflow: hidden;
+    align-items: center;
+    float: center;
+  }
+  
+  .slider-comentario ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    
+    animation: slide 20s infinite alternate ease-in-out;
+  }
+  
+  .slider-comentario li {
+    width: 100%;
+    list-style: none;
+  }
+  
+  #star {
+    width: 1%;
+  }
+  .slider-comentario img {
+    width: 7%;
+  }
+  
+  @keyframes slide {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+    
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+    
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+    
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+  }
+
+
