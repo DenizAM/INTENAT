@@ -31,7 +31,7 @@
 
 .formularioContainer {
   grid-area: main;
-  background-image: linear-gradient(rgba(23, 22, 39, 0.3), rgba(71, 74, 78, 0.3)),  url("/assets/fondoSignUp.jpg");
+  background-image: linear-gradient(rgba(23, 22, 39, 0.3), rgba(71, 74, 78, 0.3)),  url("../assets/fondoSignUp.jpg");
   background-size: cover;
 }
 
