@@ -85,29 +85,33 @@ filter: invert(3);
   
   
     display:flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     float: center;
     text-align: center;
     /*flex-wrap: nowrap;
     overflow-x: auto;*/
   
-    padding-top: 2%;
-    padding-bottom: 6%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     
     padding-right: 15%;
     padding-left: 15%;
   }
   
   .divOferta {
-    min-width: 30%;
     max-height: 70%;
     text-align: center;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     float: center;
     margin: 1%;
   }
+
+  .ofertaContainer > .divOferta {
+    border: 0px solid orange;
+  }
+
 
   #menuOferta { /*Icono fuego azul*/
     width: 8%;

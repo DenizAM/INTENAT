@@ -31,7 +31,7 @@
 
 .formularioContainer {
   grid-area: main;
-  background-image: linear-gradient(rgba(23, 22, 39, 0.3), rgba(71, 74, 78, 0.3)),  url("https://verdecora.es/blog/wp-content/uploads/2017/07/mantenimiento-piscina-verano-1.jpg.webp");
+  background-image: linear-gradient(rgba(23, 22, 39, 0.3), rgba(71, 74, 78, 0.3)),  url("/assets/fondoSignUp.jpg");
   background-size: cover;
 }
 
@@ -99,10 +99,6 @@
     float: left;
 }
 
-#logoAccesibilidad{
-    filter: invert(1);
-    margin: 0px 10px;
-}
 
 .cabecera > .elementoCentro {
     justify-content:center;

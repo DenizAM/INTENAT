@@ -1,0 +1,433 @@
+
+@media only screen and (min-width: 1100px) {
+    .logoAccesibilidad{
+      background-position: 0 0;
+      background-size: 515%; 
+      width: 50px;
+      height: 50px;
+      background-image: url('/assets/iconos.png'); 
+      border: 0px solid rgb(68, 0, 255);
+      text-indent: -9999px; /*Para "ocultar" texto*/
+    }
+    .logoBurger{
+        background-position: -45px 0;
+        background-size: 480%; 
+        width: 50px;
+        height: 50px;
+        background-image: url('/assets/iconos.png'); 
+        text-indent: -9999px; /*Para "ocultar" texto*/
+    }
+    .logoINTENAT{
+      background-position: 0px -220px;
+      background-size: 140%; 
+      width: 190px;
+      height: 40px;
+      background-image: url('/assets/iconos.png'); 
+      text-indent: -9999px; /*Para "ocultar" texto*/
+    }
+    .lupa{
+      background-position: -73px 0px;
+      background-size: 515%; 
+      width: 35px;
+      height: 35px;
+      background-image: url('/assets/iconos.png'); 
+      text-indent: -9999px; /*Para "ocultar" texto*/
+    }
+    
+    .iniciarSesion{
+        background-position: -110px 0px;
+        background-size: 515%; 
+        width: 35px;
+        height: 35px;
+        background-image: url('/assets/iconos.png'); 
+        text-indent: -9999px; /*Para "ocultar" texto*/
+      }
+      
+    .carrito{
+        background-position: -145px 0px;
+        background-size: 515%; 
+        width: 35px;
+        height: 35px;
+        background-image: url('/assets/iconos.png'); 
+        text-indent: -9999px; /*Para "ocultar" texto*/
+      }
+  }
+  
+  @media only screen and (max-width: 1100px) {
+    .logoAccesibilidad{
+      background-position: 0 0;
+      background-size: 470%; 
+      width: 40px;
+      height: 40px;
+      background-image: url('/assets/iconos.png'); 
+      border: 0px solid rgb(0, 255, 187);
+      text-indent: -9999px; /*Para "ocultar" texto*/
+    }
+    .logoBurger{
+      background-position: -35px 0;
+      background-size: 470%; 
+      width: 40px;
+      height: 40px;
+      background-image: url('/assets/iconos.png'); 
+      text-indent: -9999px; /*Para "ocultar" texto*/
+    }
+    .logoINTENAT{
+      background-position: 0px -140px;
+      background-size: 145%; 
+      width: 120px;
+      height: 30px;
+      background-image: url('/assets/iconos.png'); 
+      text-indent: -9999px; /*Para "ocultar" texto*/
+    }
+    .lupa{
+      background-position: -60px 0px;
+      background-size: 500%; 
+      width: 30px;
+      height: 30px;
+      background-image: url('/assets/iconos.png'); 
+      text-indent: -9999px; /*Para "ocultar" texto*/
+    }
+    
+    .iniciarSesion{
+        background-position: -91px 0px;
+        background-size: 500%; 
+        width: 30px;
+        height: 30px;
+        background-image: url('/assets/iconos.png'); 
+        text-indent: -9999px; /*Para "ocultar" texto*/
+      }
+      
+    .carrito{
+        background-position: -120px 0px;
+        background-size: 500%; 
+        width: 30px;
+        height: 30px;
+        background-image: url('/assets/iconos.png'); 
+        text-indent: -9999px; /*Para "ocultar" texto*/
+      }
+  }
+  
+  @media only screen and (max-width: 1000px) {
+    .logoAccesibilidad{
+        border: 0px solid rgb(255, 179, 0);
+      background-position: 0 0;
+      background-size: 480%; 
+      width: 40px;
+      height: 40px;
+      background-image: url('/assets/iconos.png'); 
+      text-indent: -9999px; /*Para "ocultar" texto*/
+    }
+    .logoBurger{
+      background-position:-35px 0;
+      background-size: 480%; 
+      width: 40px;
+      height: 40px;
+      background-image: url('/assets/iconos.png'); 
+      text-indent: -9999px; /*Para "ocultar" texto*/
+    }
+    .logoINTENAT{
+      background-position: 0px -140px;
+      background-size: 145%; 
+      width: 120px;
+      height: 30px;
+      background-image: url('/assets/iconos.png'); 
+      text-indent: -9999px; /*Para "ocultar" texto*/
+    }
+    .lupa{
+      background-position: -60px 0px;
+      background-size: 500%; 
+      width: 30px;
+      height: 30px;
+      background-image: url('/assets/iconos.png'); 
+      text-indent: -9999px; /*Para "ocultar" texto*/
+    }
+    
+    .iniciarSesion{
+        background-position: -91px 0px;
+        background-size: 500%; 
+        width: 30px;
+        height: 30px;
+        background-image: url('/assets/iconos.png'); 
+        text-indent: -9999px; /*Para "ocultar" texto*/
+      }
+      
+    .carrito{
+        background-position: -120px 0px;
+        background-size: 500%; 
+        width: 30px;
+        height: 30px;
+        background-image: url('/assets/iconos.png'); 
+        text-indent: -9999px; /*Para "ocultar" texto*/
+      }
+  }
+  
+  @media only screen and (max-width: 900px) {
+    .logoAccesibilidad{
+      background-position: 0 0;
+      background-size: 500%; 
+      width: 35px;
+      height: 35px;
+      background-image: url('/assets/iconos.png'); 
+      border: 0px solid rgb(255, 111, 0);
+      text-indent: -9999px; /*Para "ocultar" texto*/
+    }
+    .logoBurger{
+      background-position: -26px 0;
+      background-size: 450%; 
+      width: 30px;
+      height: 30px;
+      background-image: url('/assets/iconos.png'); 
+      text-indent: -9999px; /*Para "ocultar" texto*/
+    }
+    .logoINTENAT{
+      background-position: 0px -140px;
+      background-size: 145%; 
+      width: 120px;
+      height: 30px;
+      background-image: url('/assets/iconos.png'); 
+      text-indent: -9999px; /*Para "ocultar" texto*/
+    }
+    .lupa{
+      background-position: -50px 0px;
+      background-size: 490%; 
+      width: 25px;
+      height: 25px;
+      background-image: url('/assets/iconos.png'); 
+      text-indent: -9999px; /*Para "ocultar" texto*/
+    }
+    
+    .iniciarSesion{
+        background-position: -74px 0px;
+        background-size: 490%; 
+        width: 25px;
+        height: 25px;
+        background-image: url('/assets/iconos.png'); 
+        text-indent: -9999px; /*Para "ocultar" texto*/
+      }
+      
+    .carrito{
+        background-position: -99px 0px;
+        background-size: 490%; 
+        width: 25px;
+        height: 25px;
+        background-image: url('/assets/iconos.png'); 
+        text-indent: -9999px; /*Para "ocultar" texto*/
+      }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .logoAccesibilidad{
+      background-position: 0 0;
+      background-size: 500%; 
+      width: 35px;
+      height: 35px;
+      background-image: url('/assets/iconos.png'); 
+      border: 0px solid rgb(0, 191, 255);
+      text-indent: -9999px; /*Para "ocultar" texto*/
+    }
+    .logoBurger{
+      background-position: -25px 0;
+      background-size: 450%; 
+      width: 30px;
+      height: 30px;
+      background-image: url('/assets/iconos.png'); 
+      text-indent: -9999px; /*Para "ocultar" texto*/
+    }
+    .logoINTENAT{
+      background-position: 0px -115px;
+      background-size: 140%; 
+      width: 100px;
+      height: 25px;
+      background-image: url('/assets/iconos.png'); 
+      text-indent: -9999px; /*Para "ocultar" texto*/
+    }
+    .lupa{
+      background-position: -50px 0px;
+      background-size: 490%; 
+      width: 25px;
+      height: 25px;
+      background-image: url('/assets/iconos.png'); 
+      text-indent: -9999px; /*Para "ocultar" texto*/
+    }
+    
+    .iniciarSesion{
+        background-position: -74px 0px;
+        background-size: 490%; 
+        width: 25px;
+        height: 25px;
+        background-image: url('/assets/iconos.png'); 
+        text-indent: -9999px; /*Para "ocultar" texto*/
+      }
+      
+    .carrito{
+        background-position: -99px 0px;
+        background-size: 490%; 
+        width: 25px;
+        height: 25px;
+        background-image: url('/assets/iconos.png'); 
+        text-indent: -9999px; /*Para "ocultar" texto*/
+      }
+  }
+  
+  
+  @media only screen and (max-width: 700px) {
+    .logoAccesibilidad{
+      background-position: 0 0;
+      background-size: 470%; 
+      width: 30px;
+      height: 30px;
+      background-image: url('/assets/iconos.png'); 
+      border: 0px solid rgb(94, 255, 0);
+      text-indent: -9999px; /*Para "ocultar" texto*/
+    }
+    .logoBurger{
+      background-position: -17px 0;
+      background-size: 400%; 
+      width: 24px;
+      height: 24px;
+      background-image: url('/assets/iconos.png'); 
+      text-indent: -9999px; /*Para "ocultar" texto*/
+    }
+    .logoINTENAT{
+      background-position: 0px -90px;
+      background-size: 115%; 
+      width: 100px;
+      height: 25px;
+      background-image: url('/assets/iconos.png'); 
+      text-indent: -9999px; /*Para "ocultar" texto*/
+    }
+    .lupa{
+      background-position: -38px 0px;
+      background-size: 480%; 
+      width: 20px;
+      height: 20px;
+      background-image: url('/assets/iconos.png'); 
+      text-indent: -9999px; /*Para "ocultar" texto*/
+    }
+    
+    .iniciarSesion{
+        background-position: -58px 0px;
+        background-size: 490%; 
+        width: 20px;
+        height: 25px;
+        background-image: url('/assets/iconos.png'); 
+        text-indent: -9999px; /*Para "ocultar" texto*/
+      }
+      
+    .carrito{
+        background-position: -76px 0px;
+        background-size: 480%; 
+        width: 20px;
+        height: 20px;
+        background-image: url('/assets/iconos.png'); 
+        text-indent: -9999px; /*Para "ocultar" texto*/
+      }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .logoAccesibilidad{
+      background-position: 0 0;
+      background-size: 450%; 
+      width: 20px;
+      height: 18px;
+      background-image: url('/assets/iconos.png'); 
+      border: 0px solid rgb(255, 0, 0);
+      text-indent: -9999px; /*Para "ocultar" texto*/
+    }
+    .logoBurger{
+      background-position: -13px 2px;
+      background-size: 380%; 
+      width: 20px;
+      height: 20px;
+      background-image: url('/assets/iconos.png'); 
+      text-indent: -9999px; /*Para "ocultar" texto*/
+    }
+    .logoINTENAT{
+      background-position: 0px -90px;
+      background-size: 115%; 
+      width: 100px;
+      height: 25px;
+      background-image: url('/assets/iconos.png'); 
+      text-indent: -9999px; /*Para "ocultar" texto*/
+    }
+    .lupa{
+      background-position: -38px 0px;
+      background-size: 480%; 
+      width: 20px;
+      height: 20px;
+      background-image: url('/assets/iconos.png'); 
+      text-indent: -9999px; /*Para "ocultar" texto*/
+    }
+    
+    .iniciarSesion{
+        background-position: -58px 0px;
+        background-size: 480%; 
+        width: 20px;
+        height: 20px;
+        background-image: url('/assets/iconos.png'); 
+        text-indent: -9999px; /*Para "ocultar" texto*/
+      }
+      
+    .carrito{
+        background-position: -76px 0px;
+        background-size: 480%; 
+        width: 20px;
+        height: 20px;
+        background-image: url('/assets/iconos.png'); 
+        text-indent: -9999px; /*Para "ocultar" texto*/
+      }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .logoAccesibilidad{
+      background-position: 0 0;
+      background-size: 450%; 
+      width: 20px;
+      height: 18px;
+      background-image: url('/assets/iconos.png'); 
+      border: 0px solid rgb(255, 170, 0);
+      text-indent: -9999px; /*Para "ocultar" texto*/
+    }
+    .logoBurger{
+      background-position: -12px 0;
+      background-size: 390%; 
+      width: 18px;
+      height: 18px;
+      background-image: url('/assets/iconos.png'); 
+      text-indent: -9999px; /*Para "ocultar" texto*/
+    }
+    .logoINTENAT{
+      background-position: 0px -80px;
+      background-size: 100%; 
+      width: 100px;
+      height: 20px;
+      background-image: url('/assets/iconos.png'); 
+      text-indent: -9999px; /*Para "ocultar" texto*/
+    }
+    .lupa{
+      background-position: -38px 0px;
+      background-size: 480%; 
+      width: 20px;
+      height: 20px;
+      background-image: url('/assets/iconos.png'); 
+      text-indent: -9999px; /*Para "ocultar" texto*/
+    }
+    
+    .iniciarSesion{
+        background-position: -58px 0px;
+        background-size: 480%; 
+        width: 20px;
+        height: 20px;
+        background-image: url('/assets/iconos.png'); 
+        text-indent: -9999px; /*Para "ocultar" texto*/
+      }
+      
+    .carrito{
+        background-position: -76px 0px;
+        background-size: 480%; 
+        width: 20px;
+        height: 20px;
+        background-image: url('/assets/iconos.png'); 
+        text-indent: -9999px; /*Para "ocultar" texto*/
+      }
+  }

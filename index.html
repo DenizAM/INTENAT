@@ -5,10 +5,11 @@
 
 <head>
     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>INTENAT-SitioOficial</title>
+    <title>INTENAT - Sitio Oficial</title>
     <link rel="stylesheet" href="css/estilo1.css">
     <link rel="stylesheet" href="css/estilo2.css">
     <link rel="stylesheet" href="css/estilo3.css">
+    <link rel="stylesheet" href="css/estilo5.css">
     <script src="https://kit.fontawesome.com/2cb25f2c39.js" crossorigin="anonymous"></script>
 
 </head>
@@ -22,17 +23,15 @@
 
             <nav class="elementosIzquierda">
 
-                <div>
-                <img id="logoAccesibilidad" src="iconos/accessibilityMENU.png" alt="Logo accesibilidad">
+                <img class="logoAccesibilidad">
                 <a href="" class="menu"></a>
-                </div>
                 
 
 
                 <nav class="burguer">
                 <input class="checkbox" type="checkbox" id="check">
                     <label for="check" class="bar-btn">
-                    <i class="fas fa-bars"></i>
+                        <img class="logoBurger">
                     </label>
                 <ul class="nav-menu">
                     <li><a class="menuA" href="#">Hombre</a></li>
@@ -49,15 +48,15 @@
             </nav>
 
             <nav class="elementoCentro">
-                <img id="logoINTENAT" src="iconos/logoINTENAT.png" alt="Logo de la marca">
+                <img class="logoINTENAT">
             </nav>
 
             <nav class="elementosDerecha">
-                <img id="lupa" src="iconos/lupaMENU.png" alt="Logo lupa">
+                <img class="lupa">
                 <a href="" class="menu">Buscar</a>
-                <img id="iniciarSesion" src="iconos/iniciarSesion.png" alt="Logo iniciar sesión">
+                <img class="iniciarSesion">
                 <a href="signIn.html" class="menu">Iniciar Sesión</a>
-                <img id="carrito" src="iconos/carritoMENU.png" alt="Logo carrito">
+                <img class="carrito">
                 <a href="" class="menu">Carrito</a>
             </nav>
 
@@ -74,39 +73,39 @@
 
 
     <main class="cuerpoPrincipal">    
-       <label id="titulosMenu"> ¡Ecuentra lo mejor para equiparte!</label>  
-    
+        <div class="descubreMas">
+            <label id="titulosMenu"> ¡Ecuentra lo mejor para equiparte!</label>  
             <a href="" id="mas">Descubre más</a> 
             <img id="flechaDerecha" src="iconos/flechaLargaDerecha.png" alt="DerechaFlecha">
-     
+        </div>
 
             
         <div class="descubreContainer"> 
 
             <div class="divDescubre">
-                <a href="" id="descubreLink"><img id="DESI" src="imagenes/mas1.jpg" alt="Logo carrito"></a>
-                <div>Traje de baño</div>
-                <div>DAMA</div>
+                <a href="" id="descubreLink"><img id="DESI" src="assets/descubre_mas_accesorios.jpeg" alt="Logo carrito"></a>
+                <div>Accesorios</div>
+                <div>UNISEX</div>
             </div>
 
             <div class="divDescubre">
-                <a href="" id="descubreLink"><img id="DESI" src="imagenes/mas2.jpg" alt="Logo carrito"></a>
+                <a href="" id="descubreLink"><img id="DESI" src="assets/descubre_mas_hombre.jpg" alt="Logo carrito"></a>
                 <div>Traje de baño</div>
                 <div>CABALLERO</div>
             </a>
             </div>
 
             <div class="divDescubre">
-                <a href="" id="descubreLink"><img id="DESI" src="imagenes/mas3.jpg" alt="Logo carrito"></a>
+                <a href="" id="descubreLink"><img id="DESI" src="assets/descubre_mas_mujer.jpeg" alt="Logo carrito"></a>
                 <div>Traje de baño</div>
-                <div>NIÑO</div>
+                <div>DAMA</div>
             </a>
             </div>
 
             <div class="divDescubre">
-                <a href="" id="descubreLink"><img id="DESI" src="imagenes/mas4.jpg" alt="Logo carrito"></a>
+                <a href="" id="descubreLink"><img id="DESI" src="assets/descubre_mas_niños.jpg" alt="Logo carrito"></a>
                 <div>Traje de baño</div>
-                <div>NIÑA</div>
+                <div>NIÑOS</div>
             </a>
             </div>
 
@@ -118,29 +117,29 @@
        <div class="ofertaContainer"> 
 
             <div class="divOferta">
-                <a href="" id="ofertaLink"><img id="OFI" src="imagenes/oferta1.jpg" alt="Oferta Imagen"></a>
-                <div class="of">Gafas espejo Nike</div>
+                <a href="" id="ofertaLink"><img id="OFI" src="assets/oferta1.jpg" alt="Oferta Imagen"></a>
+                <div class="of">Aletas azules</div>
                 <div><br><del> $980.00 MXN</del></div>
                 <div><br>$540.00 MXN <img id="menuOferta" src="iconos/fuego.png" alt="fuego"></div>
              </div>
 
             <div class="divOferta">
-                <a href="" id="ofertaLink"><img id="OFI" src="imagenes/oferta2.jpg" alt="Oferta Imagen"></a>
-                <div class="of">Traje de baño completo Reebok</div>
+                <a href="" id="ofertaLink"><img id="OFI" src="assets/oferta2.jpeg" alt="Oferta Imagen"></a>
+                <div class="of">Kit azulk</div>
                 <div><br><del> $1300.00 MXN</del></div>
                 <div><br>$980.00 MXN <img id="menuOferta" src="iconos/fuego.png" alt="fuego"></div>
             </div>
 
             <div class="divOferta">
-                <a href="" id="ofertaLink"><img id="OFI" src="imagenes/oferta3.jpg" alt="Oferta Imagen"></a>
-                <div class="of">Traje de baño completo Shark</div>
+                <a href="" id="ofertaLink"><img id="OFI" src="assets/oferta3.jpeg" alt="Oferta Imagen"></a>
+                <div class="of">Tapones de oído</div>
                 <div><br><del> $760.00 MXN</del></div>
                 <div><br>$450.00 MXN <img id="menuOferta" src="iconos/fuego.png" alt="fuego"></div>
             </div>
 
             <div class="divOferta">
-                <a href="" id="ofertaLink"><img id="OFI" src="imagenes/oferta4.jpg" alt="Oferta Imagen"></a>
-                <div class="of">Clip de nariz Ocean</div>
+                <a href="" id="ofertaLink"><img id="OFI" src="assets/oferta4.jpg" alt="Oferta Imagen"></a>
+                <div class="of">Gafas rosas</div>
                 <div><br><del> $570.00 MXN</del></div>
                 <div><br>$230.00 MXN <img id="menuOferta" src="iconos/fuego.png" alt="fuego"></div>
             </div>
@@ -171,16 +170,16 @@
         <div class="slider-comentario">
             <ul>              
                 <li><img id="star" src="iconos/Star.png" alt="imagen oferta"><img id="star" src="iconos/Star.png" alt="imagen oferta"><img id="star" src="iconos/Star.png" alt="imagen oferta"><img id="star" src="iconos/Star.png" alt="imagen oferta"><img id="star" src="iconos/Star.png" alt="imagen oferta">
-                    <img class="fuego" src="imagenes/comentario1.jpg" alt="imagen oferta"><br>"Me encanto este producto,<br> lo volveria a comprar definitivamente"<br><b>Juan Dominguez</b> </li>
+                    <img class="fuego" src="assets/reseña1.png" alt="imagen oferta"><br>"Me encanto este producto,<br> lo volveria a comprar definitivamente"<br><b>Juan Dominguez</b> </li>
 
                     <li><img id="star" src="iconos/Star.png" alt="imagen oferta"><img id="star" src="iconos/Star.png" alt="imagen oferta"><img id="star" src="iconos/Star.png" alt="imagen oferta">
-                        <img class="fuego" src="imagenes/comentario2.jpg" alt="imagen oferta"><br>"Viene un poco reducido,<br> deben tomarlo en cuenta"<br><b>Fernando Flores</b> </li>
+                        <img class="fuego" src="assets/reseña2.png" alt="imagen oferta"><br>"Viene un poco reducido,<br> deben tomarlo en cuenta"<br><b>Fernando Flores</b> </li>
 
                         <li><img id="star" src="iconos/Star.png" alt="imagen oferta"><img id="star" src="iconos/Star.png" alt="imagen oferta"><img id="star" src="iconos/Star.png" alt="imagen oferta"><img id="star" src="iconos/Star.png" alt="imagen oferta">
-                            <img class="fuego" src="imagenes/comentario3.jpg" alt="imagen oferta"><br>"Lo busque por todas partes,<br> solo aqui  logre econtrarlo, gracias"<br><b>Marina Torres</b> </li>
+                            <img class="fuego" src="assets/reseña3.png" alt="imagen oferta"><br>"Lo busque por todas partes,<br> solo aqui  logre econtrarlo, gracias"<br><b>Marina Torres</b> </li>
 
                             <li><img id="star" src="iconos/Star.png" alt="imagen oferta"><img id="star" src="iconos/Star.png" alt="imagen oferta"><img id="star" src="iconos/Star.png" alt="imagen oferta"><img id="star" src="iconos/Star.png" alt="imagen oferta"><img id="star" src="iconos/Star.png" alt="imagen oferta">
-                                <img class="fuego" src="imagenes/comentario4.jpg" alt="imagen oferta"><br>"Ame este color,<br> super recomendado"<br><b>Ana Saavedra</b> </li>
+                                <img class="fuego" src="assets/reseña4.png" alt="imagen oferta"><br>"Ame este color,<br> super recomendado"<br><b>Ana Saavedra</b> </li>
             </ul>
         </div>   
     </section>

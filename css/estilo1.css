@@ -26,7 +26,7 @@
 /*Estética de secciones del maquetado*/
 .cabecera {
     grid-area: navbar;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),  url("https://concepto.de/wp-content/uploads/2019/06/natacion-e1562943144215.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),  url("/assets/header_homeOptimizada2.jpeg");
     background-size: cover;
   }
 
@@ -114,19 +114,20 @@
 
 .cabecera > .elementosIzquierda {
     justify-content:left;
-    height: 13%;
+    height: 10%;
     cursor:pointer;
     float: left;
 }
 
-#logoAccesibilidad{
-    filter: invert(1);
-    margin: 0px 10px;
+.elementosIzquierda{
+  max-height: 10%;
+  border: 0x solid red;
+
 }
 
 .cabecera > .elementoCentro {
     justify-content:center;
-    height: 15%;
+    height: 10%;
     filter: invert(1);
     cursor: none;
     float: left;
@@ -145,11 +146,6 @@
 #lupa, #iniciarSesion, #carrito {
     filter: invert();
 }
-
-
-
-
-
 
 .cabecera  .elementoCentro img:hover{
     cursor: none;
