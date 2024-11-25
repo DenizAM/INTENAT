@@ -5,7 +5,7 @@
       background-size: 515%; 
       width: 50px;
       height: 50px;
-      background-image: url('/assets/iconos.png'); 
+      background-image: url("../assets/iconos.png"); 
       border: 0px solid rgb(68, 0, 255);
       text-indent: -9999px; /*Para "ocultar" texto*/
     }
@@ -14,7 +14,7 @@
         background-size: 480%; 
         width: 50px;
         height: 50px;
-        background-image: url('/assets/iconos.png'); 
+        background-image: url('../assets/iconos.png'); 
         text-indent: -9999px; /*Para "ocultar" texto*/
     }
     .logoINTENAT{
@@ -22,7 +22,7 @@
       background-size: 140%; 
       width: 190px;
       height: 40px;
-      background-image: url('/assets/iconos.png'); 
+      background-image: url('../assets/iconos.png'); 
       text-indent: -9999px; /*Para "ocultar" texto*/
     }
     .lupa{
@@ -30,7 +30,7 @@
       background-size: 515%; 
       width: 35px;
       height: 35px;
-      background-image: url('/assets/iconos.png'); 
+      background-image: url('../assets/iconos.png'); 
       text-indent: -9999px; /*Para "ocultar" texto*/
     }
     
@@ -39,7 +39,7 @@
         background-size: 515%; 
         width: 35px;
         height: 35px;
-        background-image: url('/assets/iconos.png'); 
+        background-image: url('../assets/iconos.png'); 
         text-indent: -9999px; /*Para "ocultar" texto*/
       }
       
@@ -48,7 +48,7 @@
         background-size: 515%; 
         width: 35px;
         height: 35px;
-        background-image: url('/assets/iconos.png'); 
+        background-image: url('../assets/iconos.png'); 
         text-indent: -9999px; /*Para "ocultar" texto*/
       }
   }
