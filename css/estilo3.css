@@ -78,8 +78,8 @@ filter: invert(3);
   }
   
   .ofertaContainer {
-    height: 75vw;
-    max-height: 1000px;
+    height: 30vw;
+    max-height: 500px;
     min-height: 250px;
     height: auto;
   
@@ -100,7 +100,7 @@ filter: invert(3);
   }
   
   .divOferta {
-    max-height: 70%;
+    max-height: 50%;
     text-align: center;
     justify-content: space-around;
     align-items: center;

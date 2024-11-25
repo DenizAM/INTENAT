@@ -12,7 +12,7 @@
 
 /*estética de grid containers*/
 .grid-container > * {
-  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
   border-radius: 0px;
   padding: 0px;
   text-align: center;
@@ -62,10 +62,23 @@
   gap: 0px; /*Separación entre cada celda del grid*/
   grid-template:
     "navbar"  200px /*Altura de la celda*/
-    "header" 100px
+    "header" 90px
     "main" 500px
-    "section" 100px
+    "section" 90px
     "footer"  165px;
+}
+
+/*para un dispositivo mediano*/
+@media (min-width: 400px) {
+  .grid-container {
+    /* medidas de areas de filas y columnas */
+    grid-template:
+    "navbar navbar"  300px /*Altura de la celda*/
+    "header header" 100px
+    "main main" 600px
+    "section section" 100px
+    "footer footer"  185px;
+  }
 }
 
 /*para un dispositivo mediano*/
@@ -73,20 +86,20 @@
     .grid-container {
       /* medidas de areas de filas y columnas */
       grid-template:
-      "navbar navbar"  350px /*Altura de la celda*/
-      "header header" 150px
+      "navbar navbar"  400px /*Altura de la celda*/
+      "header header" 120px
       "main main" 620px
       "section section" 150px
-      "footer footer"  250px;
+      "footer footer"  200px;
     }
   }
   
   /*dispositivos grande*/
-  @media (min-width: 900px) {
+  @media (min-width: 800px) {
     .grid-container {
       grid-template:
       "navbar navbar"  550px /*Altura de la celda*/
-      "header header" 180px
+      "header header" 150px
       "main main" 1000px
       "section section" 240px
       "footer footer"  370px;
@@ -110,6 +123,7 @@
     padding-left: 2%;
     list-style: none;
     font-weight: bolder;
+    border: none;
 }
 
 .cabecera > .elementosIzquierda {
@@ -117,11 +131,13 @@
     height: 10%;
     cursor:pointer;
     float: left;
+    border: none;
 }
 
 .elementosIzquierda{
   max-height: 10%;
   border: 0x solid red;
+  border: none;
 
 }
 
@@ -131,6 +147,7 @@
     filter: invert(1);
     cursor: none;
     float: left;
+    border: none;
 }
 
 #logoINTENAT{
@@ -141,37 +158,41 @@
     justify-content:end;
     height: 10%;
     float: left;
+    border: none;
 }
 
-#lupa, #iniciarSesion, #carrito {
-    filter: invert();
-}
 
 .cabecera  .elementoCentro img:hover{
-    cursor: none;
+    cursor: pointer;
+    border: none;
 }
 
 .cabecera  .elementosIzquierda img:hover{
     transform: scale(1.11); /*para que aumente y disminuya tamaño logo CURSOR ENCIMA*/
     cursor: pointer;
+    border: none;
 }
 
 .cabecera .elementosDerecha a{
     padding: 0 20px;    
+    border: none;
 }
 
 .cabecera .elementosDerecha a:hover{
     transform: scale(1.115); /*para que aumente y disminuya tamaño de palabras MENU CURSOR ENCIMA*/
     transition: all 0.5s;
+    border: none;
 }
 
 .cabecera .elementosDerecha a{
     color: #eceff1; /*Color a texto menu*/
-    text-decoration: none;    
+    text-decoration: none;
+    border: none;    
 }
 
 .cabecera .elementosDerecha a:hover{
     color: #ffbc0e;
+    border: none;
 }
 
 

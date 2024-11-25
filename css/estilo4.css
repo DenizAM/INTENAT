@@ -8,14 +8,16 @@
   font-family: 'Poppins', sans-serif; /*llamando al tipo de letra*/
   height: 100%;/*body ocupa 100%*/
   font-size: calc(.6em + .6vw); /*Ajustar tamaño de letra*/
+  border: none;
 }
 
 /*estética de grid containers*/
 .grid-container > * {
-  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
   border-radius: 0px;
   padding: 0px;
   text-align: center;
+  border: none;
 }
 
 
@@ -27,6 +29,7 @@
 .cabecera {
     grid-area: navbar;
     background-color:#4a4641;
+    border: none;
   }
 
 .formularioContainer {
@@ -51,7 +54,7 @@
   gap: 0px; /*Separación entre cada celda del grid*/
   grid-template:
     "navbar"  40px /*Altura de la celda*/
-    "main" 800px
+    "main" 600px
     "footer"  165px;
 }
 
@@ -61,7 +64,7 @@
       /* medidas de areas de filas y columnas */
       grid-template:
       "navbar navbar" 60px /*Altura de la celda*/
-      "main main" 800px
+      "main main" 700px
       "footer footer"  250px;
     }
   }
@@ -71,8 +74,8 @@
     .grid-container {
       grid-template:
       "navbar navbar"  80px /*Altura de la celda*/
-      "main main" 1000px
-      "footer footer"  430px;
+      "main main" 800px
+      "footer footer"  330px;
     }
   }
 
@@ -81,6 +84,7 @@
 
 /*estilo del MENU*/
   .cabecera > * {
+    border: none;
     display:flex;
     justify-content: center;
     align-items:center;
@@ -97,6 +101,7 @@
     height: 80%;
     cursor:pointer;
     float: left;
+    border: none;
 }
 
 
@@ -106,6 +111,7 @@
     filter: invert(1);
     cursor: none;
     float: left;
+    border: none;
 }
 
 
@@ -113,11 +119,9 @@
     justify-content:end;
     height: 60%;
     float: left;
+    border: none;
 }
 
-#lupa, #iniciarSesion, #carrito {
-    filter: invert();
-}
 
 
 
@@ -125,30 +129,36 @@
 
 
 .cabecera  .elementoCentro img:hover{
-    cursor: none;
+    cursor: pointer;
+    border: none;
 }
 
 .cabecera  .elementosIzquierda img:hover{
     transform: scale(1.11); /*para que aumente y disminuya tamaño logo CURSOR ENCIMA*/
     cursor: pointer;
+    border: none;
 }
 
 .cabecera .elementosDerecha a{
     padding: 0 20px;    
+    border: none;
 }
 
 .cabecera .elementosDerecha a:hover{
     transform: scale(1.115); /*para que aumente y disminuya tamaño de palabras MENU CURSOR ENCIMA*/
     transition: all 0.5s;
+    border: none;
 }
 
 .cabecera .elementosDerecha a{
     color: #eceff1; /*Color a texto menu*/
-    text-decoration: none;    
+    text-decoration: none;   
+    border: none; 
 }
 
 .cabecera .elementosDerecha a:hover{
     color: #ffbc0e;
+    border: none;
 }
 
 
